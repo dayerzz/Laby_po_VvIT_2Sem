@@ -3,7 +3,7 @@ from tg_bot_code import cfg
 from week import curr_week_for_bd, curr_week
 from select_db import get_day_formatting, get_week_formatting
 
-token = '6005198804:AAFQjwD24g6b9ULFWb-WCs5LtPqMvT0n_2g'
+token = 'bot_token'
 bot = telebot.TeleBot(token)
 
 

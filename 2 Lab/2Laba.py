@@ -4,6 +4,7 @@ appid = "38f41cdc3cf346f3b2f78cdb7e91945b"
 res = requests.get("http://api.openweathermap.org/data/2.5/weather",
              params={'q': city, 'units': 'metric', 'lang': 'ru', 'APPID': appid})
 data = res.json()
+//someone was here...
 print("Люберцы:", city)
 print("Погодные условия:", data['weather'][0]['description'])
 print("Температура:", data['main']['temp'])
